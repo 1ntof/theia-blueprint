@@ -4,11 +4,15 @@
   "version": "1.52.0",
   "description": "Eclipse Theia IDE Product Branding",
   "dependencies": {
+    "@theia/cli": "1.35.0",
     "@theia/core": "1.52.0",
-    "@theia/getting-started": "1.52.0",
+    "@theia/getting-started": "^1.40.1",
     "@theia/vsx-registry": "1.52.0",
     "@theia/workspace": "1.52.0",
-    "inversify": "^6.0.1"
+    "@wdio/mocha-framework": "9.0.6",
+    "electron-updater": "6.3.3",
+    "inversify": "^6.0.1",
+    "mocha": "10.7.3"
   },
   "devDependencies": {
     "rimraf": "^2.7.1",
